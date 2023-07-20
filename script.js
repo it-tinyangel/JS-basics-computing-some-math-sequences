@@ -34,5 +34,5 @@ for (let a = 2; a < 10000; a = 2 * a - 1)
 // 2a + 200 looks like an arithmetic progression,
 // but let's use 2a + 200 as the counter change step, as written in the task condition
 for (let a = -166; a < 100; a = 2 * a + 200)
-	if ((a > -100 && a <= -10) || (a >= 10 && a < 100))
+	if ((a > -100 && a <= -10) || (a >= 10 && a < 100)) // limit to the range of all two-digit numbers
 		document.write(`<h2 style="color: hotpink">${a}</h2>`);
